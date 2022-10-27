@@ -52,17 +52,58 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">My first PWA</span>
+          <span class="mdl-layout-title">Area of a Trapezoid, in JavaScript</span>
         </div>
       </header>
       <main class="mdl-layout__content">
-        <p></p>
+        <h2>Formula</h2>
+        <h2>A = [(a + b) / 2 × h</h2>
         <img
           src="./images/notebook-animation.svg"
           alt="Computer"
           width="25%"
           height="25%"
         />
+        <h4>Enter integers for dimentions</h4>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="XXX"
+              aria-label="Base A"
+            />
+            <label class="mdl-textfield__label" for="XXX">base a ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="XXX"
+              aria-label="Base B"
+            />
+            <label class="mdl-textfield__label" for="XXX">base b ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="XXX"
+              aria-label="Height"
+            />
+            <label class="mdl-textfield__label" for="XXX">height ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
         <p></p>
         <!-- Raised button with ripple -->
         <button
