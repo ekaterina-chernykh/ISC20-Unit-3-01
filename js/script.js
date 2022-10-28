@@ -19,5 +19,14 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  // input
+  const base_a = parseFloat(document.getElementById("base-a").value)
+  const base_b = parseFloat(document.getElementById("base-b").value)
+  const height = parseFloat(document.getElementById("height").value)
+
+  // process
+  const area = [(base_a + base_b) / 2] * height
+
+  // output
+  document.getElementById("area").innerHTML = "Area is: " + area + "mm²"
 }
